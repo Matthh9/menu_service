@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>210</width>
+    <height>207</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Accueil</string>
+    </attribute>
+    <widget class="QLabel" name="etat">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QSplitter" name="splitter">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>201</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QPushButton" name="buttonDecIptv">
+      <property name="text">
+       <string>Déclenchement IPTV</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttonCheckSigOrf">
+      <property name="text">
+       <string>Check sig ORF</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttonAlarmes">
+      <property name="text">
+       <string>Mise en forme alarmes</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttonAlarmesDCM">
+      <property name="text">
+       <string>Mise en forme alarmes DCM</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Aide</string>
+    </attribute>
+    <widget class="QPushButton" name="changerMDPORF">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>171</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Changer mdp orf</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
